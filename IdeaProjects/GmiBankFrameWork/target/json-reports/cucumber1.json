@@ -1,0 +1,55 @@
+[
+  {
+    "line": 2,
+    "elements": [
+      {
+        "line": 3,
+        "name": "User should navigate to homepage",
+        "description": "",
+        "id": "user-navigates-to-homepage;user-should-navigate-to-homepage",
+        "type": "scenario",
+        "keyword": "Scenario",
+        "steps": [
+          {
+            "result": {
+              "status": "undefined"
+            },
+            "line": 5,
+            "name": "User navigates \"gmibankurl\"",
+            "match": {},
+            "keyword": "When "
+          },
+          {
+            "result": {
+              "status": "undefined"
+            },
+            "line": 6,
+            "name": "User clicks on iconAccountMenu",
+            "match": {},
+            "keyword": "Then "
+          }
+        ],
+        "tags": [
+          {
+            "name": "@homepage"
+          }
+        ]
+      }
+    ],
+    "name": "User navigates to homepage",
+    "description": "",
+    "id": "user-navigates-to-homepage",
+    "keyword": "Feature",
+    "uri": "src/test/resources/features/homepage.feature",
+    "tags": [
+      {
+        "name": "@homepage",
+        "type": "Tag",
+        "location": {
+          "line": 1,
+          "column": 1
+        }
+      }
+    ]
+  }
+]

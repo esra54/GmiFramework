@@ -9,11 +9,7 @@ public class HomePage {
     public HomePage(){
         PageFactory.initElements(Driver.getDriver(), this);
     }
-    /*
-    System should allow any user to register with valid credentials
-validating the success message
 
-     */
     @FindBy(id = "account-menu")
     public WebElement iconAccountMenu;
 
