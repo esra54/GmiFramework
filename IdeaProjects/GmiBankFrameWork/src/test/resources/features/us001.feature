@@ -13,7 +13,7 @@ Feature:    System should allow any user to register with valid credentials
     Then  User provides a valid Lastname
     Then  User provides a valid Address
     Then  User provides a valid Mobile Phone Number
-    Then  User provides a valid Username "Usernamee"
+    Then  User provides a valid Username "Username"
     Then  User provides a valid Email
     Then  User provides a valid Password "Password"
     Then  User provides a valid Password to Password confirmation textbox
